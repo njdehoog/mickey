@@ -3,7 +3,7 @@ tagline:             A Spelt Theme
 description: >
   A short description for your site
 url:                 "http://example.com"
-baseurl:             ""
+baseurl:             "/"
 rss:                 feed.xml # path to RSS feed
 
 # Paths
@@ -11,6 +11,9 @@ baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
+
+# Mailchimp form
+mailchimp_enabled:   false
 
 # Comments
 disqus_enabled:      false

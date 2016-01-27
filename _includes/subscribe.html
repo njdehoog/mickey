@@ -4,6 +4,7 @@
     <p>
       Hi, I'm <a href="{{ site.baseurl }}about/">Your Name</a>. A short description of your blog. Mickey is a minimal one-column theme for Jekyll. It's designed and developed by <a href="http://github.com/vincentchan" target="_blank">@VincentChan</a>. 
     </p>
+    {% if mailchimp_enabled %}
     <div class="newsletterForm-wrapper">
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
@@ -23,6 +24,7 @@
       </div>
       <!--End mc_embed_signup-->
     </div>
+    {% endif %}
     <hr/>
   </div>
 </section>
