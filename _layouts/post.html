@@ -58,7 +58,9 @@ layout: default
     <div class="container container--content">
       <div class="content-body">
         {% include "subscribe.html" %}
-        {% include "comments.html" %}
+        {% if disqus_enabled %}
+          {% include "comments.html" %}
+        {% endif %}
       </div>
     </div>
   </section>
