@@ -18,7 +18,6 @@ disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 # Social
 icon:                "path/to/site/icon" # e.g. /assets/img/icon.png [best 300px X 300px]
-
 author:
   name:           	 Your Name
   url:            	 your site url
@@ -29,6 +28,5 @@ author:
   dribbble:          username
   pinterest:         username
   kiva:              username
-
 fb_admins:           your facebook profile id
 fb_appid:            your facebook app id
