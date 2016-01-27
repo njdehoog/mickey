@@ -11,7 +11,6 @@ image:
   topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
-syntaxHighlighter: no
 ---
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Mickey_Mouse)
 
