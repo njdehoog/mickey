@@ -35,7 +35,7 @@ index: true
                   </a>
                 {% else %}
                 <a href="{{ post.url }}">
-                  <div class="postArticle-image" style="background-image:url('{{site.baseurl}}assets/images/logo-black.svg')">
+                  <div class="postArticle-image desaturate" style="background-image:url('{{ "desk.jpg" | prepend: site.baseurl_featured_img }}')">
                   </div>
                 </a>
                 {% endif %}

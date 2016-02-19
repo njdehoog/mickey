@@ -11,6 +11,8 @@ layout: default
           top:{{ page.image.topPosition }};
         {% endif %}
         " alt="">
+        {% else %}
+         <img class="post-featuredImage" src="{{ "desk.jpg" | prepend: site.baseurl_featured_img }}">
       {% endif %}
 
     </div>
