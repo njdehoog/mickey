@@ -3,7 +3,6 @@ tagline:             "a minimal, one-column theme"
 description: >
   A short description for your site
 url:                 "http://example.com"
-baseurl:             "/"
 rss:                 feed.xml # path to RSS feed
 
 # Paths
