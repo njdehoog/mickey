@@ -16,6 +16,10 @@
   @media (max-width: $screen-xs-max) {
     overflow-y: hidden;
   }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .meta {
@@ -210,6 +214,10 @@
   h3 {
     margin-top: $leading;
   }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .newsletterForm-wrapper {
@@ -228,6 +236,7 @@
   text-align: center;
 
   a:not(.socialAccount) {
+    text-decoration: underline;
     background-position: 0 16px;
   }
 }
